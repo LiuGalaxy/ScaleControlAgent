@@ -13,8 +13,9 @@ For users employing `stable-baselines3>=1.7`, adjustments to the Environment may
 
 ## Model Download
 
-Structure of `saved_model.zip`:
+The pre-trained agent can be found in [Goole Drive](https://drive.google.com/file/d/19ltnYHcS9n1rIX8RDvLxRq9r0QFsp4pq/view?usp=sharing). 
 
+Structure of `model.zip`:
 ```
 saved_model.zip/
 ├── data.json          - JSON file containing class parameters (dictionary format)
@@ -60,8 +61,21 @@ The agent is trained on images approximately 6000x7000 in size. While it can be 
 Encounter an issue or have a question? Feel free to open an issue in this repository.
 
 ## Citation
-If you use our Scale Control Agent in your research, please cite our upcoming paper:
-- To be announced.
+If you use our Scale Control Agent in your research, please cite our paper:
+
+```
+@article{LIU2024296,
+title = {Scale-aware deep reinforcement learning for high resolution remote sensing imagery classification},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {209},
+pages = {296-311},
+year = {2024},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2024.01.013},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271624000224},
+author = {Yinhe Liu and Yanfei Zhong and Sunan Shi and Liangpei Zhang},
+}
+```
 
 ## Additional Resources
 Discover more resources and datasets from our group on our [website](http://rsidea.whu.edu.cn/resource_sharing.htm).
